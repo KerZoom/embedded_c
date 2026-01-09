@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -std=c11
 INCLUDES = -Iinclude
-SRC = src/main.c src/counter.c
+SRC = src/main.c src/counter.c src/circular_buffer.c
 OUT = build/app
 DEBUG = break main
 
